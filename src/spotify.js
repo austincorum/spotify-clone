@@ -1,15 +1,17 @@
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
 // https://developer.spotify.com/dashboard/applications
 
+//   'user-top-read',
+
 export const authEndpoint = 'https:/accounts.spotify.com/authorize';
 const redirectUri = 'http://localhost:3000/';
 const clientId = '12dd56e496e8431484cf9d3780526ec1';
 const scopes = [
-  'user-read-current-playing',
-  'user-read-recently-played',
-  'user-read-playback-state',
-  'user-top-read',
-  'user-modify-playback-state'
+  "user-read-currently-playing",
+  "user-read-recently-played",
+  "user-read-playback-state",
+  "user-top-read",
+  "user-modify-playback-state",
 ];
 
 export const getTokenFromUrl = () => {
