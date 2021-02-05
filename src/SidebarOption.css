@@ -1,6 +1,6 @@
 .sidebarOption {
   display: flex;
-  color: grey;
+  color: rgb(165, 161, 161);
   align-items: center;
   height: 40px;
   cursor: pointer;
