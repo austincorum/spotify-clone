@@ -3,7 +3,7 @@ import Header from "./Header";
 import "./Body.css";
 import { useDataLayerValue } from "./DataLayer";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
-import FavoriteIcon from "@material-ui/icons/Favorite";
+import FavoriteBorderRoundedIcon from "@material-ui/icons/FavoriteBorderRounded";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import SongRow from "./SongRow";
 
@@ -26,8 +26,11 @@ function Body({ spotify }) {
       <div className="body_songs">
         <div className="body_icons">
           <PlayCircleFilledIcon className="body_shuffle" />
-          <FavoriteIcon font-font="large" />
-          <MoreHorizIcon />
+          <FavoriteBorderRoundedIcon
+            font-font="large"
+            className="icon_format"
+          />
+          <MoreHorizIcon className="icon_format" />
         </div>
 
         {/* List of songs */}
