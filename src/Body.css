@@ -41,18 +41,12 @@
   align-items: center;
 }
 
-.icon_format {
-  font-size: 30px !important;
-  color: lightgray;
-}
-
 .body_icons > .MuiSvgIcon-root {
   margin-right: 20px;
 }
 
 .body_songs {
   margin: 20px -30px;
-  margin-bottom: 80px;
 }
 
 .body_shuffle {
