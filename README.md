@@ -9,6 +9,6 @@ localhost:3000
 ---
 
 #### Displays:
-list of songs with album artwork in Discover Weekly
-list of spotify playlists
+- list of songs with album artwork in Discover Weekly
+- list of spotify playlists
 
