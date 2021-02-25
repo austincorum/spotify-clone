@@ -1,10 +1,10 @@
 # Spotify Clone
 
 ### To run on local host:
-npm start
+`npm start`
 
 ### On browser, go to the following:
-localhost:3000
+`localhost:3000`
 
 ---
 
